@@ -1,6 +1,6 @@
 # MCC 2023
-#VA Tarea 3
-#FFT Iterativo
+# VA Tarea 3
+# FFT Iterativo
 
  - Omar Castillo Alarcon
  - Gludher Quispe Cotacallapa
