@@ -6,7 +6,7 @@ def fft2_iterative(img):
     height, width = img.shape
 
     # Calcula el número de puntos de datos en la FFT2
-    num_points = height * width
+    num_points = height * width 
 
     # Realiza la transformada en la primera dimensión (filas)
     for i in range(height):
@@ -32,6 +32,7 @@ else:
     magnitude_spectrum = 20 * np.log(np.abs(fft_result))
     phase_spectrum = np.angle(fft_result)
 
+    cv2.imshow('original',template)
     cv2.imshow('Magnitude Spectrum', magnitude_spectrum.astype(np.uint8))
     cv2.imshow('Phase Spectrum', phase_spectrum.astype(np.uint8))
     cv2.waitKey(0)
